@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`shallow test for Header component 1`] = `
+<header>
+  <h1 />
+  <NavLink
+    activeClassName="is-active"
+    exact={true}
+    strict={true}
+    to="/"
+  >
+    Dashboard 
+  </NavLink>
+  <NavLink
+    activeClassName="is-active"
+    exact={true}
+    strict={true}
+    to="/create"
+  >
+    Create-Expense 
+  </NavLink>
+</header>
+`;
