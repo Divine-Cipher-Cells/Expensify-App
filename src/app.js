@@ -8,9 +8,7 @@ import Approuter from "./routers/Approuter";
 import { Provider } from "react-redux";
 
 import configureStore from "./store/configure_store";
-import { addExpense } from "./actions/expenses_actions";
-import { setTextFilter } from "./actions/filters_actions";
-import getVisibleExpenses from "./selectors/expenses_selector";
+
 
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
