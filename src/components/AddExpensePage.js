@@ -1,7 +1,7 @@
 import React from "React";
 import { connect } from "react-redux";
 import ExpenseForm from "./ExpenseForm";
-import {addExpense} from "../actions/expenses_actions"
+import {addExpense} from "../actions/expenses_actions";
 
 export class AddExpensePage extends React.Component{
     whenSubmit = (expense) => {
