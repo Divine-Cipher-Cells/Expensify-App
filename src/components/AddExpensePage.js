@@ -1,4 +1,4 @@
-import React from "React";
+import React from "react";
 import { connect } from "react-redux";
 import ExpenseForm from "./ExpenseForm";
 import {addExpense} from "../actions/expenses_actions";
